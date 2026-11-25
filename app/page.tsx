@@ -1,5 +1,6 @@
 import TestimonialsSection from "./components/testimonials-section";
 import ContactSection from "./components/contact-section";
+import FaqSection from "./components/faq-section";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <p className="mt-4 text-lg text-gray-600 sm:text-xl">We build software that matters</p>
       <TestimonialsSection />
       <ContactSection />
+      <FaqSection />
     </main>
   );
 }
